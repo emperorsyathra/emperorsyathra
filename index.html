@@ -1,0 +1,1039 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Free Online Dice allows you to flip a coin or roll virtual dice. You can flip coin for decision making or roll virtual dice for true random numbers.">
+    <title>Emperorsyathra</title>
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="canonical" href="https://freeonlinedice.com/" />
+    <style>
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        nav,
+        section,
+        summary {
+            display: block
+        }
+
+        audio,
+        canvas,
+        video {
+            display: inline-block
+        }
+
+        html {
+            font-family: sans-serif;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0
+        }
+
+        a:active,
+        a:hover {
+            outline: 0
+        }
+
+        hr {
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            height: 0
+        }
+
+        button,
+        input,
+        select,
+        textarea {
+            margin: 0
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            -webkit-appearance: button;
+            cursor: pointer
+        }
+
+        *,
+        :after,
+        :before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        html {
+            font-size: 62.5%;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        body {
+            font-family: Open Sans, Source Sans Pro, Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+            color: #2c3542;
+            background-color: #fff
+        }
+
+        button,
+        input,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit
+        }
+
+        button,
+        input,
+        select[multiple],
+        textarea {
+            background-image: none
+        }
+
+        a {
+            color: #4baad3;
+            text-decoration: none
+        }
+
+        a:focus,
+        a:hover {
+            color: #2c3542;
+            text-decoration: underline
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #4e91cf
+        }
+
+        .text-right {
+            text-align: right
+        }
+
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Open Sans, Source Sans Pro, Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            line-height: 1.3
+        }
+
+        h4,
+        h5,
+        h6 {
+            margin-top: 13.5px;
+            margin-bottom: 13.5px
+        }
+
+        .h4,
+        h4 {
+            font-size: 20px
+        }
+
+        .row {
+            margin-left: -10px;
+            margin-right: -10px
+        }
+
+        .row:after,
+        .row:before {
+            content: " ";
+            display: table
+        }
+
+        .row:after {
+            clear: both
+        }
+
+        .col-lg-1,
+        .col-lg-10,
+        .col-lg-11,
+        .col-lg-12,
+        .col-lg-2,
+        .col-lg-3,
+        .col-lg-4,
+        .col-lg-5,
+        .col-lg-6,
+        .col-lg-7,
+        .col-lg-8,
+        .col-lg-9,
+        .col-md-1,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9,
+        .col-sm-1,
+        .col-sm-10,
+        .col-sm-11,
+        .col-sm-12,
+        .col-sm-2,
+        .col-sm-3,
+        .col-sm-4,
+        .col-sm-5,
+        .col-sm-6,
+        .col-sm-7,
+        .col-sm-8,
+        .col-sm-9,
+        .col-xs-1,
+        .col-xs-10,
+        .col-xs-11,
+        .col-xs-12,
+        .col-xs-2,
+        .col-xs-3,
+        .col-xs-4,
+        .col-xs-5,
+        .col-xs-6,
+        .col-xs-7,
+        .col-xs-8,
+        .col-xs-9 {
+            position: relative;
+            min-height: 1px;
+            padding-left: 10px;
+            padding-right: 10px
+        }
+
+        @media (min-width: 992px) {
+
+            .col-md-1,
+            .col-md-10,
+            .col-md-11,
+            .col-md-2,
+            .col-md-3,
+            .col-md-4,
+            .col-md-5,
+            .col-md-6,
+            .col-md-7,
+            .col-md-8,
+            .col-md-9 {
+                float: left
+            }
+
+            .col-md-6 {
+                width: 50%
+            }
+
+            .col-md-12 {
+                width: 100%
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 12px;
+            margin-bottom: 0;
+            font-size: 17px;
+            line-height: 1.6;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 0;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none
+        }
+
+        .btn:focus,
+        .btn:hover {
+            color: #333;
+            text-decoration: none
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #2c3542;
+            border-color: #2c3542
+        }
+
+        .btn-primary.active,
+        .btn-primary:active,
+        .btn-primary:focus,
+        .btn-primary:hover,
+        .open .dropdown-toggle.btn-primary {
+            color: #fff
+        }
+
+        .dropdown {
+            position: relative
+        }
+
+        .navbar {
+            position: relative;
+            z-index: 1000;
+            min-height: 40px;
+            margin-bottom: 18px
+        }
+
+        .navbar:after,
+        .navbar:before {
+            content: " ";
+            display: table
+        }
+
+        .navbar:after {
+            clear: both
+        }
+
+        @media (min-width: 768px) {
+            .navbar {
+                border-radius: 0
+            }
+        }
+
+        .navbar-header:after,
+        .navbar-header:before {
+            content: " ";
+            display: table
+        }
+
+        .navbar-header:after {
+            clear: both
+        }
+
+        @media (min-width: 768px) {
+            .navbar-header {}
+        }
+
+        .navbar-brand {
+            line-height: 27px
+        }
+
+        .navbar-brand:focus,
+        .navbar-brand:hover {
+            text-decoration: none
+        }
+
+        .navbar-default {
+            background-color: #4e91cf
+        }
+
+        .navbar-default .navbar-brand {
+            color: #fff
+        }
+
+        .navbar-default .navbar-brand:focus,
+        .navbar-default .navbar-brand:hover {
+            color: #e6e6e6;
+            background-color: transparent
+        }
+
+        .page {
+            padding-top: 0
+        }
+
+        .inner-page {
+            padding-top: 10px;
+            padding-bottom: 5px;
+            max-width: 1100px;
+            margin: 0 auto
+        }
+
+        .newsletter,
+        footer {
+            padding: 0 !important;
+            margin: 0 !important;
+            background-color: #4e91cf;
+            color: #fff
+        }
+
+        .newsletter a,
+        footer a {
+            color: #fff
+        }
+
+        #home {
+            margin-top: 0
+        }
+
+        .copyright {
+            line-height: 50px;
+            text-align: left
+        }
+
+        .navbar {
+            border: 0
+        }
+
+        .navbar .navbar-container {
+            max-width: 1100px;
+            margin: 0 auto
+        }
+
+        a {
+            -webkit-transition: color .4s ease-out, background .7s ease-in;
+            transition: color .4s ease-out, background .7s ease-in
+        }
+
+        a:hover {
+            text-decoration: none
+        }
+
+        hr {
+            width: 50%;
+            margin: 20px auto;
+            border-width: 1px
+        }
+
+        .btn {
+            font-weight: 400;
+            color: #fff;
+            border: 0;
+            -webkit-transition: background .6s;
+            transition: background .6s
+        }
+
+        .btn-centered {
+            margin: 0 auto;
+            display: block
+        }
+
+        .btn-container {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-size: 48px;
+            position: relative;
+            text-align: center
+        }
+
+        .navbar-brand {
+            margin: 0;
+            padding: 6px;
+            font-size: 25px;
+            float: left;
+            letter-spacing: 1px;
+            font-weight: 600
+        }
+
+        body {
+            text-rendering: optimizeLegibility;
+            font-weight: 300;
+            overflow-x: hidden
+        }
+
+        @media (max-width: 979px) {
+            body {
+                padding: 0
+            }
+
+            #home,
+            #sample-page {
+                padding: 1px 0
+            }
+
+            [class*="col-md"] {
+                padding: 0 60px
+            }
+
+            hr {
+                margin: 10px auto
+            }
+
+            .page {
+                padding-top: 20px
+            }
+
+            .newsletter,
+            .sign-up,
+            footer {
+                padding: 0 40px !important
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand {
+                line-height: 32px;
+                padding: 4px 0;
+                text-align: center;
+                width: 100%
+            }
+
+            .page {
+                padding-top: 30px
+            }
+        }
+
+        @media (max-width: 420px) {
+            [class*="col-md"] {
+                padding: 0 10px
+            }
+
+            .row {
+                padding-top: 20px;
+                padding-bottom: 20px
+            }
+
+            .copyright {
+                line-height: 18px
+            }
+        }
+
+        body,
+        input:focus,
+        textarea:focus {
+            outline: 0;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        html {
+            overflow-x: hidden
+        }
+
+        @media screen and (max-width: 560px) {
+            .btn {
+                margin: 0 auto !important
+            }
+
+            .dropdown {
+                float: none !important;
+                margin: 0 auto !important;
+                margin-bottom: 20px !important
+            }
+        }
+
+        .dropdown,
+        .dropdown .carat,
+        .dropdown .carat:after,
+        .dropdown .selected::after,
+        .dropdown div,
+        .dropdown div::after,
+        .dropdown li,
+        .dropdown:after {
+            -webkit-transition: all 150ms ease-in-out;
+            -moz-transition: all 150ms ease-in-out;
+            -ms-transition: all 150ms ease-in-out;
+            transition: all 150ms ease-in-out
+        }
+
+        .dropdown {
+            position: relative;
+            width: 250px;
+            cursor: pointer;
+            font-weight: 200;
+            background: #29af84;
+            padding: 8px 0;
+            border-radius: 5px;
+            color: #000;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            float: left
+        }
+
+        .dropdown.focus,
+        .dropdown:hover {
+            background: #00c384
+        }
+
+        .dropdown select {
+            width: 100%
+        }
+
+        .dropdown {
+            width: auto;
+            margin-top: 20px !important;
+            margin-left: 10%;
+            padding: 0;
+            float: none;
+            width: 40%;
+            margin: 0 auto
+        }
+
+        .dropdown select {
+            padding: 10px 15px
+        }
+
+        @media (max-width: 560px) {
+            .dropdown {
+                width: 80% !important
+            }
+        }
+
+        #flip {
+            position: relative;
+            margin: 30px auto 50px;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            -webkit-perspective: 600px;
+            -moz-perspective: 600px;
+            text-align: center;
+            color: #fff;
+            font: bold 36px Arial;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        #flip div {
+            width: inherit;
+            height: 200px;
+            border: 1px solid #ccc;
+            background: #42c0fb;
+            text-align: center;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%
+        }
+
+        #flip {
+            transition: -webkit-transform 1s ease-in;
+            -webkit-transform-style: preserve-3d
+        }
+
+        #flip div {
+            position: absolute;
+            -webkit-backface-visibility: hidden;
+            padding-top: 78px
+        }
+
+        #heads {
+            z-index: 800
+        }
+
+        #tails {
+            -webkit-transform: rotateY(-180deg);
+            z-index: 900
+        }
+
+        #flip.flipheads {
+            -webkit-animation: flipHeads 3s ease-out forwards;
+            -moz-animation: flipHeads 3s ease-out forwards;
+            -o-animation: flipHeads 3s ease-out forwards;
+            animation: flipHeads 3s ease-out forwards
+        }
+
+        #flip.fliptails {
+            -webkit-animation: flipTails 3s ease-out forwards;
+            -moz-animation: flipTails 3s ease-out forwards;
+            -o-animation: flipTails 3s ease-out forwards;
+            animation: flipTails 3s ease-out forwards
+        }
+
+        @-webkit-keyframes flipHeads {
+            from {
+                -webkit-transform: rotateY(0);
+                -moz-transform: rotateY(0);
+                transform: rotateY(0)
+            }
+
+            to {
+                -webkit-transform: rotateY(1440deg);
+                -moz-transform: rotateY(1440deg);
+                transform: rotateY(1440deg)
+            }
+        }
+
+        @-webkit-keyframes flipTails {
+            from {
+                -webkit-transform: rotateY(0);
+                -moz-transform: rotateY(0);
+                transform: rotateY(0)
+            }
+
+            to {
+                -webkit-transform: rotateY(1620deg);
+                -moz-transform: rotateY(1620deg);
+                transform: rotateY(1620deg)
+            }
+        }
+
+        .card {
+            height: 200px;
+            margin: 0 auto;
+            background-position: left-top;
+            padding-bottom: 20px
+        }
+
+        @-webkit-keyframes results {
+            0% {
+                opacity: 0
+            }
+
+            100% {
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes resetting-Opacity {
+            100% {
+                opacity: 1
+            }
+
+            0% {
+                opacity: 0
+            }
+        }
+
+        #tridiv {
+            -webkit-perspective: 800px;
+            perspective: 800px;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background: 0 0;
+            font-size: 100%
+        }
+
+        .face {}
+
+        .cr,
+        .face,
+        .face-wrapper,
+        .scene,
+        .shape {
+            position: absolute;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d
+        }
+
+        .scene {
+            width: 80em;
+            height: 80em;
+            top: 50%;
+            left: 50%;
+            margin: -40em 0 0 -40em
+        }
+
+        .shape {
+            cursor: pointer;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            -webkit-transform-origin: 50%;
+            transform-origin: 50%
+        }
+
+        .face,
+        .face-wrapper {
+            overflow: hidden;
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden
+        }
+
+        .face {
+            background-size: 100% 100% !important;
+            background-position: center
+        }
+
+        .face-wrapper .face {
+            left: 100%;
+            width: 100%;
+            height: 100%
+        }
+
+        .shader {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        .side {
+            left: 50%
+        }
+
+        .cr,
+        .cr .side {
+            height: 100%
+        }
+
+        #cub #s1,
+        #cub #s2 {
+            width: 100%;
+            height: 100%
+        }
+
+        #cub #s2 {
+            left: 100%
+        }
+
+        #cub #s3 {
+            -webkit-transform: rotateY(-90deg) translateX(-50%);
+            transform: rotateY(-90deg) translateX(-50%)
+        }
+
+        #cub #s4 {
+            -webkit-transform: rotateY(90deg) translateX(-50%);
+            transform: rotateY(90deg) translateX(-50%)
+        }
+
+        #cub #s6 {
+            -webkit-transform: rotateX(90deg) translateY(-50%);
+            transform: rotateX(90deg) translateY(-50%)
+        }
+
+        #cub #s5 {
+            -webkit-transform: rotateX(-90deg) translateY(-50%);
+            transform: rotateX(-90deg) translateY(-50%)
+        }
+
+        #cub #s4 {
+            left: 100%
+        }
+
+        #cub #s5 {
+            top: 100%
+        }
+
+        #cub {
+            width: 100px;
+            height: 100px;
+            margin: -50px 0 0 -50px;
+            position: absolute;
+            -webkit-transform-style: preserve-3d;
+            -webkit-animation-name: rotate;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-iteration-count: 1;
+            -webkit-animation-play-state: paused;
+            opacity: 0
+        }
+
+        #cub.activate {
+            -webkit-animation-play-state: running
+        }
+
+        #cub.opacity {
+            opacity: 1
+        }
+
+        #cub.reset {
+            width: 100px;
+            height: 100px;
+            margin: -50px 0 0 -50px;
+            position: absolute;
+            -webkit-transform-style: preserve-3d;
+            -webkit-animation-name: anti-rotate;
+            -webkit-animation-duration: .1s;
+            -webkit-animation-iteration-count: 1;
+            -webkit-animation-play-state: paused
+        }
+
+        @-webkit-keyframes rotate {
+            from {
+                -webkit-transform: rotateX(0) rotateY(0) rotateZ(0)
+            }
+
+            to {
+                -webkit-transform: rotateX(1080deg) rotateY(-720deg) rotateZ(0)
+            }
+        }
+
+        @-webkit-keyframes anti-rotate {
+            from {
+                -webkit-transform: rotateX(1080deg) rotateY(-720deg) rotateZ(0)
+            }
+
+            to {
+                -webkit-transform: rotateX(0) rotateY(0) rotateZ(0)
+            }
+        }
+
+        #cub h3 {
+            margin: 0;
+            color: #fff;
+            text-align: center;
+            font: bold 36px Arial;
+            top: 29%;
+            position: relative;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        #cub #s1 {
+            -webkit-transform: translateZ(50px);
+            transform: translateZ(50px)
+        }
+
+        #cub #s2 {
+            -webkit-transform: translateZ(-50px) rotateY(180deg);
+            transform: translateZ(-50px) rotateY(180deg)
+        }
+
+        #cub #s3,
+        #cub #s4,
+        #cub #s5,
+        #cub #s6 {
+            width: 100px;
+            height: 100px
+        }
+
+        #cub .face {
+            background-color: #42c0fb
+        }
+
+        #flipit {
+            margin-bottom: 30px
+        }
+
+        .mg_addad354693,
+        .mg_addad354768,
+        .mg_addad354870 {
+            display: none !important
+        }
+
+        @media screen and (max-width:979px) {
+
+            .adL,
+            .adR {
+                display: none !important
+            }
+        }
+
+        .adR {
+            right: 0
+        }
+
+        .adL {
+            left: 0
+        }
+
+        .adL,
+        .adR {
+            position: absolute;
+            top: 40px;
+            max-width: 300px;
+            max-height: 1000px;
+            padding: 10px;
+            z-index: 9999
+        }
+
+        @media screen and (max-width:1200px) {
+
+            .adL,
+            .adR {
+                max-width: 200px
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6255092059107871"
+        crossorigin="anonymous"></script>
+    <script async src="https://cdn.usefulcontentsites.com/js/push/subscribe.js?v=7"></script>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-container">
+            <div class="navbar-header"><a class="navbar-brand" href="/">Emperorsyathra</a></div>
+        </div>
+    </nav>
+    <div style="text-align: center;margin-bottom:15px;" class="adL adsdiv"><ins class="adsbygoogle"
+            style="display:block" data-ad-client="ca-pub-6255092059107871" data-ad-slot="5157749646"
+            data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <div style="text-align: center;" class="adR adsdiv"><ins class="adsbygoogle" style="display:block"
+            data-ad-client="ca-pub-6255092059107871" data-ad-slot="1202973012" data-ad-format="rectangle"
+            data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <hr />
+    <div id="dice" class="page">
+        <div class="row inner-page">
+            <div class="col-md-12">
+                <div class="btn-container">Roll Die</div>
+                <div class="card">
+                    <div id="tridiv">
+                        <div class="scene">
+                            <div class="shape reset" id="cub">
+                                <div class="face" id="s1">
+                                    <div class="shader"></div>
+                                </div>
+                                <div class="face" id="s2">
+                                    <div class="shader"></div>
+                                </div>
+                                <div class="face" id="s3">
+                                    <div class="shader"></div>
+                                </div>
+                                <div class="face" id="s4">
+                                    <div class="shader"></div>
+                                </div>
+                                <div class="face" id="s5">
+                                    <div class="shader"></div>
+                                </div>
+                                <div class="face" id="s6">
+                                    <div class="shader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div><button class="btn btn-primary btn-centered" id="rollit">Click the button or the dice to roll
+                        it</button></div>
+               <div id="sides">
+                        
+               </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;" class="adsdiv"><ins class="adsbygoogle" style="display:block"
+            data-ad-client="ca-pub-6255092059107871" data-ad-slot="1586116398" data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <div id="coin">
+        <div id="flip">
+           
+        </div>
+    </div>
+    
+    <script>function ready(t) { "loading" != document.readyState ? t() : document.addEventListener ? document.addEventListener("DOMContentLoaded", t) : document.attachEvent("onreadystatechange", function () { "complete" == document.readyState && t() }) } function hasClass(t, e) { return new RegExp("(\\s|^)" + e + "(\\s|$)").test(t.className) } function getElement(t) { return document.getElementById(t) } function drawDice(t, e) { var s = document.createElement("canvas"); s.id = "mycanvas" + t, s.width = 100, s.height = 100, getElement("s" + t).appendChild(s); var n = getElement("mycanvas" + t).getContext("2d"); n.strokeStyle = "#FFFFFF", n.fillStyle = "#FFFFFF", 1 != e && 3 != e && 5 != e || (n.beginPath(), n.arc(50, 50, 8, 0, 2 * Math.PI), n.stroke(), n.fill()), 2 != e && 3 != e && 4 != e && 5 != e && 6 != e || (n.beginPath(), n.arc(25, 75, 8, 0, 2 * Math.PI), n.stroke(), n.fill(), n.beginPath(), n.arc(75, 25, 8, 0, 2 * Math.PI), n.stroke(), n.fill()), 4 != e && 5 != e && 6 != e || (n.beginPath(), n.arc(25, 25, 8, 0, 2 * Math.PI), n.stroke(), n.fill(), n.beginPath(), n.arc(75, 75, 8, 0, 2 * Math.PI), n.stroke(), n.fill()), 6 == e && (n.beginPath(), n.arc(25, 50, 8, 0, 2 * Math.PI), n.stroke(), n.fill(), n.beginPath(), n.arc(75, 50, 8, 0, 2 * Math.PI), n.stroke(), n.fill()) } function shuffle(t) { var e, s, n = t.length; if (n) for (; --n;)e = t[s = Math.floor(Math.random() * (n + 1))], t[s] = t[n], t[n] = e; return t } !function (t, e) { "function" == typeof define && define.amd ? define(function () { return e(t, t.document) }) : "undefined" != typeof module && module.exports ? module.exports = e(t, t.document) : t.Shake = e(t, t.document) }("undefined" != typeof window ? window : this, function (t, e) { "use strict"; function s(s) { if (this.hasDeviceMotion = "ondevicemotion" in t, this.options = { threshold: 15, timeout: 1e3 }, "object" == typeof s) for (var n in s) s.hasOwnProperty(n) && (this.options[n] = s[n]); if (this.lastTime = new Date, this.lastX = null, this.lastY = null, this.lastZ = null, "function" == typeof e.CustomEvent) this.event = new e.CustomEvent("shake", { bubbles: !0, cancelable: !0 }); else { if ("function" != typeof e.createEvent) return !1; this.event = e.createEvent("Event"), this.event.initEvent("shake", !0, !0) } } return s.prototype.reset = function () { this.lastTime = new Date, this.lastX = null, this.lastY = null, this.lastZ = null }, s.prototype.start = function () { this.reset(), this.hasDeviceMotion && t.addEventListener("devicemotion", this, !1) }, s.prototype.stop = function () { this.hasDeviceMotion && t.removeEventListener("devicemotion", this, !1), this.reset() }, s.prototype.devicemotion = function (e) { var s = e.accelerationIncludingGravity, n = 0, i = 0, a = 0; if (null === this.lastX && null === this.lastY && null === this.lastZ) return this.lastX = s.x, this.lastY = s.y, void (this.lastZ = s.z); n = Math.abs(this.lastX - s.x), i = Math.abs(this.lastY - s.y), a = Math.abs(this.lastZ - s.z), (n > this.options.threshold && i > this.options.threshold || n > this.options.threshold && a > this.options.threshold || i > this.options.threshold && a > this.options.threshold) && (new Date).getTime() - this.lastTime.getTime() > this.options.timeout && (t.dispatchEvent(this.event), this.lastTime = new Date), this.lastX = s.x, this.lastY = s.y, this.lastZ = s.z }, s.prototype.handleEvent = function (t) { if ("function" == typeof this[t.type]) return this[t.type](t) }, s }), ready(function () { function t() { if (hasClass(getElement("flip"), "reset")) { getElement("flip").classList.remove("reset"); var t = Math.random(); hasClass(getElement("flip"), "fliptails") ? hasClass(getElement("flip"), "switch") ? (getElement("heads").textContent = "HEADS", getElement("flip").classList.remove("fliptails"), getElement("tails").textContent = "TAILS", getElement("flip").classList.remove("switch")) : (getElement("heads").textContent = "TAILS", getElement("flip").classList.remove("fliptails"), getElement("tails").textContent = "HEADS", getElement("flip").classList.add("switch")) : getElement("flip").classList.remove("flipheads"), setTimeout(function () { t <= .5 ? hasClass(getElement("flip"), "switch") ? getElement("flip").classList.add("fliptails") : getElement("flip").classList.add("flipheads") : hasClass(getElement("flip"), "switch") ? getElement("flip").classList.add("flipheads") : getElement("flip").classList.add("fliptails") }, 100), setTimeout(function () { getElement("flip").classList.add("reset") }, 3010) } } function e() { if (hasClass(getElement("cub"), "reset")) { getElement("cub").classList.remove("reset"); var t = getElement("sides").value; ((t = isNaN(parseInt(t)) ? 6 : parseInt(t)) < 2 || t > 100) && (t = 6); for (var e = [], s = 0; s < t; ++s)e[s] = s + 1; shuffle(e), getElement("cub").classList.add("activate"), getElement("cub").classList.add("opacity"), setTimeout(function () { for (var s = 1; s < 7; ++s)void 0 !== e[s - 1] ? t > 6 ? (getElement("s" + s).innerHTML = "<h3>" + e[s - 1] + "</h3>", getElement("s" + s).classList.add("activate")) : (getElement("s" + s).innerHTML = "", getElement("s" + s).classList.add("activate"), drawDice(s, e[s - 1])) : (getElement("s" + s).innerHTML = "", getElement("s" + s).classList.add("activate")) }, 1e3), setTimeout(function () { getElement("cub").classList.remove("activate"), getElement("cub").classList.add("reset") }, 3010) } } for (var s = 1; s < 7; ++s)getElement("s" + s).innerHTML = "", getElement("s" + s).classList.add("activate"), drawDice(s, s); getElement("cub").addEventListener("mousedown", e, !1), getElement("rollit").addEventListener("mousedown", e, !1), getElement("flip").addEventListener("mousedown", t, !1), getElement("cub").addEventListener("touchstart", e, !1), getElement("flip").addEventListener("touchstart", t, !1), t(), e(), new Shake({ threshold: 15 }).start(), window.addEventListener("shake", function () { t(), e() }, !1) });</script>
+    <br />
+   
+    <script
+        type="text/javascript">new Image().src = "//counter.yadro.ru/hit?t52.6;r" + escape(document.referrer) + ((typeof (screen) == "undefined") ? "" : ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) + ";h" + escape(document.title.substring(0, 150)) + ";" + Math.random();</script>
+</body>
+
+</html>
